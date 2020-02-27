@@ -27,7 +27,8 @@ $ python yolo_opencv.py --image whatever.jpg --config yolov3.cfg --weights yolov
 ## UPDATE
 We can also implement this using webcam
 
-Simply changing .py file
+Simply executing yolo_webcam.py file and removing --image whatever.jpg command
+
 ![Object_detection2](webcam.png)
 
 
