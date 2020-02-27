@@ -24,5 +24,14 @@ $ python yolo_opencv.py --image whatever.jpg --config yolov3.cfg --weights yolov
 ## Output
 ![Object_detection](object_detection.png)
 
+## UPDATE
+We can also implement this using webcam
+
+Simply changing .py file
+![Object_detection2](webcam.png)
+
+
 ## Source
 https://github.com/arunponnusamy/object-detection-opencv
+
+
