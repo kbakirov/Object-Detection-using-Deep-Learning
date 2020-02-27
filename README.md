@@ -17,8 +17,9 @@ $ wget https://pjreddie.com/media/files/yolov3.weights
 ```
 Provided all the files are in the current directory, below command will apply object detection on the input image ``whatever.jpg``
 
+```
+$ python yolo_opencv.py --image dog.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt
+```
 
-
-
-
+## Output
 ![Object_detection](object_detection.png)
